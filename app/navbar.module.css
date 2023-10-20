@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap');
+
+#navbg{
+    background-color: #191970 !important;
+}
+#navul{
+    font-family: Saira !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+}
+
+.navli{
+    font-family: Saira !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    color: white !important;
+}
+
+#navlogo{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #navlogo{
+        display: block;
+    }
+}
+@media screen and (max-width: 324px) {
+    #navlogo{
+        width: 60% !important;
+    }
+    #navlink{
+        width: 75% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}

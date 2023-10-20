@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap');
+
+
+#processh4{
+    font-family: Saira;
+font-size: 25px;
+font-weight: 600;
+line-height: 28px;
+color: #FFFFFF;
+background-color: black;
+text-decoration: none;
+}
+#processpara{
+    font-family: Saira;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+font-weight: bold;
+}
+
