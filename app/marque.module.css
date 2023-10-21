@@ -1,75 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap");
 
+#marquebg {
+  background-color: rgb(0, 10, 61);
+}
+#marqueh4 {
+  font-family: Saira;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  color: #ffcd24;
+}
+#marqueh5 {
+  font-family: Saira;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #161616;
+}
+#marquepara {
+  font-family: Saira;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
 
-
-#marquebg{
-    background-color: rgb(0, 10, 61);
+  /* letter-spacing: 0em; */
 }
-#marqueh4{
-    font-family: Saira;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0em;
-    color: #FFCD24;
-}
-#marqueh5{
-    font-family: Saira;
-font-size: 21px;
-font-weight: 700;
-line-height: 23px;
-color: #161616;    
-}
-#marquepara{
-    font-family: Saira;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-color: #FFFFFF;
-
-/* letter-spacing: 0em; */
-}
-#marqueparascrol{
-    font-family: Saira;
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0.2em;
-color: #161616;    
-font-weight: bold;
+#marqueparascrol {
+  font-family: Saira;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2em;
+  color: #161616;
+  font-weight: bold;
 }
 
-#marquebtn{
-    font-family: Saira;
-font-size: 12px;
-font-weight: 700;
-line-height: 17px;
-letter-spacing: 0em;
-border-radius: 14px;
-text-align: center;
-color: #434343;
-background-color: #FFCD24;
-padding: 11px 20px 10.4px 20px !important;
-
+#marquebtn {
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 14px;
+  text-align: center;
+  color: #434343;
+  background-color: #ffcd24;
+  padding: 11px 20px 10.4px 20px !important;
 }
-#marquebtn1{
-    margin: 0px 0px 0px 10px;
-    font-family: Saira;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 17px;
-    letter-spacing: 0em;
-border-radius: 14px;
-padding: 11px 20px 10.4px 20px !important;
+#marquebtn1 {
+  margin: 0px 0px 0px 10px;
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 14px;
+  padding: 11px 20px 10.4px 20px !important;
 
-    text-align: center;
-    color: #FFFFFF;
-    background-color:  #245BCF;
+  text-align: center;
+  color: #ffffff;
+  background-color: #245bcf;
 }
 
 @media screen and (max-width: 365px) {
-    #marqueh4{
-        font-size: 35px;
-        line-height: 52px;
-    }
+  #marqueh4 {
+    font-size: 35px;
+    line-height: 52px;
+  }
 }

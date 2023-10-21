@@ -1,4 +1,6 @@
-import './globals.css'
+import './globals.css';
+import './mediaquery.css';
+import './slider.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

@@ -72,7 +72,6 @@
     background: url(/images/bannerbg.jpg) no-repeat center center/cover;
     width: 100%;
     height: 100%;
-
 }
 
 #banner_bannerh1__SiHV7{
@@ -192,191 +191,232 @@
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/contactform.module.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap");
 
-
-#contactform_contacth4__zGJp2{
-    margin: 0px 12px;
-    font-family: Saira;
-    font-weight: 700;
-    color: #FFCD24;
-    font-size: 38px;
-    line-height: 41.8px;
+#contactform_contacth4__zGJp2 {
+  margin: 0px 12px;
+  font-family: Saira;
+  font-weight: 700;
+  color: #ffcd24;
+  font-size: 38px;
+  line-height: 41.8px;
 }
-#contactform_contactpara__VzOX3{
-    margin: 8px 12px;
-    font-family: Saira;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-#contactform_nameemailinput__RPsNl{
-    width: 45%;
-    margin: 0px 12px;
-border-radius: 17px;
-border: 1px blue;
-padding: 14.5px 16px 14.5px 16px;
-outline: none;
+#contactform_contactpara__VzOX3 {
+  margin: 8px 12px;
+  font-family: Saira;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
 }
 
-#contactform_phoneinput__qC_iE{
-    margin: 0px 12px;
-    width: 94%;
-    border-radius: 17px;
-padding: 14.5px 16px 14.5px 16px;
-border: 1px blue;
-outline: none;
+#contactform_nameemailinput__RPsNl {
+  width: 45%;
+  margin: 0px 12px;
+  border-radius: 17px;
+  border: 1px blue;
+  padding: 14.5px 16px 14.5px 16px;
+  outline: none;
 }
 
-#contactform_checkboxinput__5Oo81{
-    margin: 0px 12px;
-    font-family: Saira;
-font-size: 14px;
-font-weight: 700;
-line-height: 20px;
-color: #FFFFFF;
+#contactform_phoneinput__qC_iE {
+  margin: 0px 12px;
+  width: 94%;
+  border-radius: 17px;
+  padding: 14.5px 16px 14.5px 16px;
+  border: 1px blue;
+  outline: none;
 }
 
-#contactform_contactbg__lMWjU{
-    background: url(/images/contactbg.png) no-repeat center center/cover;
-    width: 100%;
-    height: 100%;
+#contactform_checkboxinput__5Oo81 {
+  margin: 0px 12px;
+  font-family: Saira;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
 }
 
-#contactform_submitbtn__xeMbj{
-    border-radius: 14px !important;
-    background-color: #FFD700 !important;
-    padding: 11px 20px 10.4px 20px !important;
-    font-family: Saira;
-    font-weight: 700;
-    width: 30%;
-    color: #000000;
-    margin: 0px 12px;
+#contactform_contactbg__lMWjU {
+  background: url(/images/contactbg.png) no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+}
 
+#contactform_submitbtn__xeMbj {
+  border-radius: 14px !important;
+  background-color: #ffd700 !important;
+  padding: 11px 20px 10.4px 20px !important;
+  font-family: Saira;
+  font-weight: 700;
+  width: 30%;
+  color: #000000;
+  margin: 0px 12px;
 
-    /* font-size: 12px ;
+  /* font-size: 12px ;
     line-height: 17.14px;
     text-align: center; */
 }
 
 @media screen and (max-width: 504px) {
-    #contactform_nameemailinput__RPsNl{
-        width: 94%;
-        margin: 15px 12px;
-    }
-    #contactform_submitbtn__xeMbj{
-        width: 50%;
+  #contactform_phoneinput__qC_iE {
+  padding: 6px 14px;
+  }
+  #contactform_nameemailinput__RPsNl {
+    width: 94%;
+    margin: 9px 12px;
+  padding: 6px 14px;
 
-    }
+  }
+  #contactform_submitbtn__xeMbj {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 330px) {
-  
-    #contactform_submitbtn__xeMbj{
-        width: 70%;
-
-    }
+  #contactform_submitbtn__xeMbj {
+    width: 70%;
+  }
 }
+
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/marque.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap");
 
+#marque_marquebg__csaE1 {
+  background-color: rgb(0, 10, 61);
+}
+#marque_marqueh4___q7WJ {
+  font-family: Saira;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  color: #ffcd24;
+}
+#marque_marqueh5__E69SZ {
+  font-family: Saira;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #161616;
+}
+#marque_marquepara__Hrbtu {
+  font-family: Saira;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
 
-
-#marque_marquebg__csaE1{
-    background-color: rgb(0, 10, 61);
+  /* letter-spacing: 0em; */
 }
-#marque_marqueh4___q7WJ{
-    font-family: Saira;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0em;
-    color: #FFCD24;
-}
-#marque_marqueh5__E69SZ{
-    font-family: Saira;
-font-size: 21px;
-font-weight: 700;
-line-height: 23px;
-color: #161616;    
-}
-#marque_marquepara__Hrbtu{
-    font-family: Saira;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-color: #FFFFFF;
-
-/* letter-spacing: 0em; */
-}
-#marque_marqueparascrol__4qHMy{
-    font-family: Saira;
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0.2em;
-color: #161616;    
-font-weight: bold;
+#marque_marqueparascrol__4qHMy {
+  font-family: Saira;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2em;
+  color: #161616;
+  font-weight: bold;
 }
 
-#marque_marquebtn__bQrcu{
-    font-family: Saira;
-font-size: 12px;
-font-weight: 700;
-line-height: 17px;
-letter-spacing: 0em;
-border-radius: 14px;
-text-align: center;
-color: #434343;
-background-color: #FFCD24;
-padding: 11px 20px 10.4px 20px !important;
-
+#marque_marquebtn__bQrcu {
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 14px;
+  text-align: center;
+  color: #434343;
+  background-color: #ffcd24;
+  padding: 11px 20px 10.4px 20px !important;
 }
-#marque_marquebtn1__XepAd{
-    margin: 0px 0px 0px 10px;
-    font-family: Saira;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 17px;
-    letter-spacing: 0em;
-border-radius: 14px;
-padding: 11px 20px 10.4px 20px !important;
+#marque_marquebtn1__XepAd {
+  margin: 0px 0px 0px 10px;
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 14px;
+  padding: 11px 20px 10.4px 20px !important;
 
-    text-align: center;
-    color: #FFFFFF;
-    background-color:  #245BCF;
+  text-align: center;
+  color: #ffffff;
+  background-color: #245bcf;
 }
 
 @media screen and (max-width: 365px) {
-    #marque_marqueh4___q7WJ{
-        font-size: 35px;
-        line-height: 52px;
-    }
+  #marque_marqueh4___q7WJ {
+    font-size: 35px;
+    line-height: 52px;
+  }
 }
+
 /*!******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/process.module.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap");
 
-
-#process_processh4__762ja{
-    font-family: Saira;
-font-size: 25px;
-font-weight: 600;
-line-height: 28px;
-color: #FFFFFF;
-background-color: black;
-text-decoration: none;
-}
-#process_processpara__sth1L{
-    font-family: Saira;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-font-weight: bold;
+#process_processbg__Pwvz9{
+  background: url(/images/processbg.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
 }
 
+#process_processh4__762ja {
+  font-family: Saira;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#process_processpara__sth1L {
+  color: #ffffff;
+  font-family: Saira;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-weight: bold;
+}
+
+#process_cardWithBackground__R2t_8 {
+  background-image: url("/images/processimg1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15rem;
+  border-radius: "0px";
+  background-color: #191970;
+}
+
+#process_cardWithBackground2__Ke71Q {
+  background-image: url("/images/processimg2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15rem;
+  border-radius: "0px";
+  background-color: #191970;
+}
+#process_cardWithBackground3__7D59Y {
+  background-image: url("/images/processimg3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15rem;
+  border-radius: "0px";
+  background-color: #191970;
+}
+#process_cardWithBackground4__UHn_s {
+  background-image: url("/images/processimg4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15rem;
+  border-radius: "0px";
+  background-color: #191970;
+}
 

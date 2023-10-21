@@ -609,22 +609,6 @@ video {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
 .-mb-10 {
   margin-bottom: -2.5rem;
 }
@@ -679,18 +663,6 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mb-4 {
-  margin-bottom: 1rem;
-}
-.ms-4 {
-  margin-inline-start: 1rem;
-}
-.ms-6 {
-  margin-inline-start: 1.5rem;
-}
-.ms-5 {
-  margin-inline-start: 1.25rem;
-}
 .flex {
   display: flex;
 }
@@ -700,20 +672,14 @@ video {
 .hidden {
   display: none;
 }
-.h-20 {
-  height: 5rem;
-}
-.h-16 {
-  height: 4rem;
-}
-.h-32 {
-  height: 8rem;
-}
 .h-14 {
   height: 3.5rem;
 }
-.w-20 {
-  width: 5rem;
+.w-14 {
+  width: 3.5rem;
+}
+.w-24 {
+  width: 6rem;
 }
 .w-64 {
   width: 16rem;
@@ -723,36 +689,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-16 {
-  width: 4rem;
-}
-.w-2 {
-  width: 0.5rem;
-}
-.w-80 {
-  width: 20rem;
-}
-.w-56 {
-  width: 14rem;
-}
-.w-48 {
-  width: 12rem;
-}
-.w-10 {
-  width: 2.5rem;
-}
-.w-40 {
-  width: 10rem;
-}
-.w-32 {
-  width: 8rem;
-}
-.w-24 {
-  width: 6rem;
-}
-.w-14 {
-  width: 3.5rem;
 }
 .flex-shrink-0 {
   flex-shrink: 0;
@@ -775,11 +711,11 @@ video {
 .justify-center {
   justify-content: center;
 }
-.justify-between {
-  justify-content: space-between;
-}
 .justify-around {
   justify-content: space-around;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .gap-3 {
   gap: 0.75rem;
@@ -795,9 +731,6 @@ video {
 }
 .gap-7 {
   gap: 1.75rem;
-}
-.gap-0 {
-  gap: 0px;
 }
 .self-center {
   align-self: center;
@@ -820,16 +753,16 @@ video {
 .border-0 {
   border-width: 0px;
 }
-.bg-indigo-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(224 231 255 / var(--tw-bg-opacity));
-}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .p-4 {
   padding: 1rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .px-3 {
   padding-left: 0.75rem;
@@ -867,19 +800,15 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
 .pt-5 {
   padding-top: 1.25rem;
-}
-.pr-3 {
-  padding-right: 0.75rem;
 }
 .text-left {
   text-align: left;
@@ -935,10 +864,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
-.text-indigo-500 {
-  --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
-}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -954,34 +879,14 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
-.hover\:text-gray-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-.hover\:text-blue-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
-}
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 @media (min-width: 640px) {
 
-  .sm\:mr-10 {
-    margin-right: 2.5rem;
-  }
-
   .sm\:mt-0 {
     margin-top: 0px;
-  }
-
-  .sm\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .sm\:mr-8 {
-    margin-right: 2rem;
   }
 
   .sm\:h-32 {
@@ -1024,32 +929,12 @@ video {
     margin-top: 0px;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:h-32 {
-    height: 8rem;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
 
-  .md\:w-72 {
-    width: 18rem;
-  }
-
-  .md\:w-52 {
-    width: 13rem;
-  }
-
   .md\:w-44 {
     width: 11rem;
-  }
-
-  .md\:w-40 {
-    width: 10rem;
   }
 
   .md\:flex-row {
@@ -1090,18 +975,6 @@ video {
     width: 25%;
   }
 
-  .lg\:w-9 {
-    width: 2.25rem;
-  }
-
-  .lg\:w-96 {
-    width: 24rem;
-  }
-
-  .lg\:w-80 {
-    width: 20rem;
-  }
-
   .lg\:w-72 {
     width: 18rem;
   }
@@ -1114,16 +987,12 @@ video {
     align-items: flex-start;
   }
 
+  .lg\:gap-4 {
+    gap: 1rem;
+  }
+
   .lg\:self-start {
     align-self: flex-start;
-  }
-
-  .lg\:text-left {
-    text-align: left;
-  }
-
-  .lg\:text-start {
-    text-align: start;
   }
 }
 @media (min-width: 1280px) {
@@ -1132,6 +1001,134 @@ video {
     margin-inline-start: -4rem;
   }
 }
+
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/mediaquery.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+@media screen and (max-width: 1190px) {
+  #appHeadingContainer {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 1001px) {
+  #appHeadingContainer {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 796px) {
+  #appHeadingContainer {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  #appHeadingContainer {
+    width: 90% !important;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/slider.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/* slider.css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+}
+.slider-row {
+  display: flex;
+  flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .slider-item {
+      text-align: center;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      height: 33rem !important;
+
+    }
+  .slider-item::-webkit-scrollbar{
+    scroll-snap-type: none;
+  }
+    
+    .slider-item img {
+     /* z-index: 1000; */
+      /* opacity: 0.8; */
+      height: 100% !important;
+      /* width: 100% !important; */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .slider-item.center{
+    height: 105vh !important;
+    transform: scale(1.4);
+    /* width: 300px; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  /* .slider-item.center:hover{
+    overflow-y: scroll;
+    transform: scale(1.5);
+  } */
+
+  .slider-item.center::-webkit-scrollbar{
+    scroll-snap-type: none;
+  }
+  
+
+
+  .slider-item.center img {
+    height: 100% !important;
+
+    /* transform: scale(1.3); */
+    /* opacity: 2; */
+    /* width: 100% !important; */
+  }
+  
+  .slider-controls {
+    position: relative;
+  }
+  
+  
+  
+  .slider-row {
+    position: relative; /* This will make sure that the absolutely positioned children are positioned according to this element */
+}
+
+.slider-control.left, .slider-control.right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 3.4rem !important;
+    color: white !important;
+    background-color: transparent!important;
+    padding: 0.5rem !important;
+    border-radius: 50% !important;
+    z-index: 2!important; /* This will make sure that the buttons are above the other elements */
+}
+
+.slider-control.left {
+    left: -24%;
+}
+
+.slider-control.right {
+    right: -22.3%;
+}
+
+
+  
+  
+  
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************/

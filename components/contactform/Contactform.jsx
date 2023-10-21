@@ -34,7 +34,7 @@ function Contactform() {
          <Col md={12} lg={7} className='mt-5'>
             <h4 id={styles.contacth4} className='text-center'> Ready to Prosper?</h4>
             <p id={styles.contactpara}>Contact our team now and discuss your project.</p>
-         <form className='flex flex-col gap-4' onSubmit={handleSubmit}>
+         <form className='flex flex-col gap-3' onSubmit={handleSubmit}>
       <div>
         <input
         id={styles.nameemailinput}
@@ -70,6 +70,7 @@ function Contactform() {
 
       <div>
         <textarea
+        placeholder='Message...'
         id={styles.phoneinput}
           name="textArea"
           value={formData.textArea}
