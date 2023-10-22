@@ -32,7 +32,7 @@ function Contactform() {
             <img className='w-72' src="/images/contactphone.png" alt="" />
          </Col>
          <Col md={12} lg={7} className='mt-5'>
-            <h4 id={styles.contacth4} className='text-center'> Ready to Prosper?</h4>
+            <h4 id={styles.contacth4} className='text-center text-md-start text-lg-start'> Ready to Prosper?</h4>
             <p id={styles.contactpara}>Contact our team now and discuss your project.</p>
          <form className='flex flex-col gap-3' onSubmit={handleSubmit}>
       <div>

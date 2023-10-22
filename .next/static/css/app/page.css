@@ -183,11 +183,26 @@
     line-height: 15px;
     cursor: pointer;
 }
+#footer_footerallright__3SCIy{
+    font-family: Saira;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+}
 #footer_footerlinks__K_gZh:hover{
      color: gray;
 }
 
-
+@media screen and (max-width: 380px) {
+    #footer_footerallright__3SCIy{
+      
+        font-size: 7px;
+        line-height: 15px;
+      
+    }
+}
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/contactform.module.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************/
@@ -420,3 +435,93 @@
   background-color: #191970;
 }
 
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/dottedslider.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap");
+
+#dottedslider_dottedsliderbg__TUkcL {
+  background-color: rgb(0, 10, 61);
+}
+#dottedslider_dottedsliderh4__TE1XJ {
+    color: #FFCD24;
+    font-family: Saira;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 95.833% */
+}
+
+#dottedslider_dottedslidertext__eX4xn{
+    color: #FFF;
+font-family: Saira;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 26.4px; /* 110% */
+}
+
+
+#dottedslider_dottedsliderpara__Me7CF {
+    color: #FFF;
+    font-family: Saira;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+
+  /* letter-spacing: 0em; */
+}
+
+
+#dottedslider_dottedsliderbtn__fXAL6 {
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 14px;
+  text-align: center;
+  color: #434343;
+  background-color: #ffcd24;
+  padding: 11px 20px 10.4px 20px !important;
+}
+#dottedslider_dottedsliderbtn1__mj_Sn {
+  margin: 0px 0px 0px 10px;
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 14px;
+  padding: 11px 20px 10.4px 20px !important;
+  text-align: center;
+  color: #ffffff;
+  background-color: #245bcf;
+}
+
+#dottedslider_dottedh3__zWIqH{
+    color: #FFF;
+font-family: Saira;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 26.4px; /* 110% */
+}
+#dottedslider_dottedpara__mtLs_{
+    color: #FFF;
+font-family: Saira;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+
+
+  
+/* @media screen and (max-width: 365px) {
+  #dottedsliderh4 {
+    font-size: 35px;
+    line-height: 52px;
+  }
+} */

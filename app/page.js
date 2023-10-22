@@ -10,6 +10,7 @@ import Marque from "@/components/marque/Marque";
 import Icon from "@/components/icons/Icon";
 import Process from "@/components/process/Process";
 import Slider from "../components/slider/Slider"
+import Dottedslider from "@/components/dottedslider/Dottedslider";
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
       <Header />
       <Navbar />
       <Banner />
+      <Dottedslider/>
       <Process />
       <Icon />
       <Marque />
-      <Slider />
+      {/* <Slider /> */}
       <Contactform />
       <Footer />
     </>

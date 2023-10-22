@@ -1,11 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
-import img1 from '../../public/images/slider0.jpg';
+// import styles from '../../app/slider.module.css'
+import img1 from '../../public/images/slider1.jpg';
 import img2 from '../../public/images/slider1.jpg';
-import img3 from '../../public/images/slider2.jpg';
+import img3 from '../../public/images/slider1.jpg';
 
 function Slider() {
+//   let img1 = '../../public/images/slider1.jpg';
+// let img2 = '../../public/images/slider1.jpg';
+// let img3 = '../../public/images/slider1.jpg';
   const images = [img1, img2, img3];
   const [current, setCurrent] = useState(1);
   const centerDivRef = useRef(null);
@@ -50,22 +54,13 @@ function Slider() {
     <Row className="justify-content-center align-items-center slider-row position-relative">
       <Col md={4} className="slider-item d-none d-md-block" ref={cornerDivRef}>
         <img className='w-100' src={images[(current - 1 + images.length) % images.length]} alt="Left Image" />
-        <img className='w-100' src={images[(current - 1 + images.length) % images.length]} alt="Left Image" />
-        <img className='w-100' src={images[(current - 1 + images.length) % images.length]} alt="Left Image" />
       </Col>
       <Col md={4} xs={12} className="slider-item center px-" ref={centerDivRef}>
         <div className="slider-controls">
           <img className='w-100' src={images[current]} alt="Center Image" />
-          <img className='w-100' src={images[current]} alt="Center Image" />
-          <img className='w-100' src={images[current]} alt="Center Image" />
-          <img className='w-100' src={images[current]} alt="Center Image" />
-          <img className='w-100' src={images[current]} alt="Center Image" />
         </div>
       </Col>
       <Col md={4} className="slider-item d-none d-md-block" ref={cornerDivRef}>
-        <img className='w-100' src={images[(current + 1) % images.length]} alt="Right Image" />
-        <img className='w-100' src={images[(current + 1) % images.length]} alt="Right Image" />
-        <img className='w-100' src={images[(current + 1) % images.length]} alt="Right Image" />
       </Col>
       <FaArrowLeft onClick={prevSlide} className="slider-control left" />
       <FaArrowRight onClick={nextSlide} className="slider-control right" />

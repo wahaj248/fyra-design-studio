@@ -20,7 +20,23 @@
     line-height: 15px;
     cursor: pointer;
 }
+#footerallright{
+    font-family: Saira;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+}
 #footerlinks:hover{
      color: gray;
 }
 
+@media screen and (max-width: 380px) {
+    #footerallright{
+      
+        font-size: 7px;
+        line-height: 15px;
+      
+    }
+}

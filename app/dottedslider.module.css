@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap");
+
+#dottedsliderbg {
+  background-color: rgb(0, 10, 61);
+}
+#dottedsliderh4 {
+    color: #FFCD24;
+    font-family: Saira;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 95.833% */
+}
+
+#dottedslidertext{
+    color: #FFF;
+font-family: Saira;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 26.4px; /* 110% */
+}
+
+
+#dottedsliderpara {
+    color: #FFF;
+    font-family: Saira;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+
+  /* letter-spacing: 0em; */
+}
+
+
+#dottedsliderbtn {
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 14px;
+  text-align: center;
+  color: #434343;
+  background-color: #ffcd24;
+  padding: 11px 20px 10.4px 20px !important;
+}
+#dottedsliderbtn1 {
+  margin: 0px 0px 0px 10px;
+  font-family: Saira;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 14px;
+  padding: 11px 20px 10.4px 20px !important;
+  text-align: center;
+  color: #ffffff;
+  background-color: #245bcf;
+}
+
+#dottedh3{
+    color: #FFF;
+font-family: Saira;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 26.4px; /* 110% */
+}
+#dottedpara{
+    color: #FFF;
+font-family: Saira;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
+
+
+  
+/* @media screen and (max-width: 365px) {
+  #dottedsliderh4 {
+    font-size: 35px;
+    line-height: 52px;
+  }
+} */
