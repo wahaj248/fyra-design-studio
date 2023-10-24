@@ -11,6 +11,7 @@ import Icon from "@/components/icons/Icon";
 import Process from "@/components/process/Process";
 import Slider from "../components/slider/Slider"
 import Dottedslider from "@/components/dottedslider/Dottedslider";
+import Design from "@/components/design/Design";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Dottedslider/>
+      <Design/>
       <Process />
       <Icon />
       <Marque />

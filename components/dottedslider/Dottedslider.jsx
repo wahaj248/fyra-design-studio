@@ -30,7 +30,7 @@ At Your Service
       </div>
       <div id={styles.dotted} className="col-12 col-lg-7 flex justify-center gap-3">
       
-      <Card className='bg-primary' style={{ width: '17rem' }}>
+      <Card className='bg-primary' style={{ width: '17rem', borderRadius: "10px" }}>
       <Card.Body>
         <img src="/images/dottedicon2.png" alt="" />
         <Card.Title className='mt-4' id={styles.dottedh3}>SMM</Card.Title>
@@ -39,7 +39,7 @@ At Your Service
         </Card.Text>
       </Card.Body>
     </Card>
-      <Card className='bg-primary' style={{ width: '17rem' }}>
+      <Card className='bg-primary' style={{ width: '17rem', borderRadius: "10px" }}>
       <Card.Body>
         <img src="/images/dottedicon2.png" alt="" />
         <Card.Title className='mt-4' id={styles.dottedh3}>SMM</Card.Title>

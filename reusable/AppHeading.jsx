@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-function AppHeading({ text, para }) {
+function AppHeading({ text, para}) {
   return (
     <div className="text-center">
       <h2
@@ -11,7 +11,6 @@ function AppHeading({ text, para }) {
           fontSize: "2.5rem",
           fontStyle: "normal",
           fontWeight: 800,
-          textTransform: "capitalize",
         }}
       >
         {text}
