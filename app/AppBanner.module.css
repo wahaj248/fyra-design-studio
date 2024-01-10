@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap');
+
+#bannerbg {
+    background: url(/images/ecommerceBannerBg.png) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+}
+
+#bannerh1 {
+    color: #FFCD24;
+    font-family: Saira;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+#bannerh1White {
+    color: #fff;
+    font-family: Saira;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#bannerpara {
+    color: #FFF;
+    font-family: Saira;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#bannerbtn1 {
+    border-radius: 14px !important;
+    background-color: #FFD700 !important;
+    padding: 11px 20px 10.4px 20px !important;
+    font-family: Saira;
+    font-weight: 700;
+    color: #434343;
+}
+
+#bannerbtn2 {
+    border-radius: 14px !important;
+    background-color: #245BCF !important;
+    padding: 11px 20px 10.4px 20px !important;
+    font-family: Saira;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (max-width: 537px) {
+    #bannerh1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 443px) {
+    #bannerh1 {
+        font-size: 43px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    #bannerh1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #bannerpara {
+        padding: 0px 30px;
+    }
+}

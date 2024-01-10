@@ -1,4 +1,98 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* navbar  */
+.dropdown-menu {
+    --bs-dropdown-bg: #343a40 !important;
+    --bs-bg-opacity: 1 !important;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important
+}
+.dropdown-toggle::after{
+    border-top: 0.3em solid #ffffff !important;
+}
+
+.boxBg {
+    background: url(/images/loadingComponentBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    /* width: 200px; */
+    height: 95%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 30px 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 20px;
+}
+
+.box p {
+    font-size: 16px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    width: 200px;
+    height: auto;
+    background-color: transparent;
+    color: #ece7cc;
+    border: 1px solid #ece7cc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.box2 h2 {
+    font-size: 20px;
+}
+
+.box2 p {
+    font-size: 16px;
+}
+
+.headingBox {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* 110% */
+}
+
+.paraBox {
+    color: #FFF;
+    text-align: center;
+    font-family: Saira;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
 

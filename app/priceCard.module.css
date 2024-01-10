@@ -1,0 +1,55 @@
+.packageTitle {
+    font-family: Saira;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    /* 93.75% */
+}
+
+#pricingCard {
+    /* background-color: #245BCF !important; */
+    border-radius: 15px;
+}
+
+#price {
+    font-family: Saira;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60.5px;
+    /* 110% */
+}
+
+.division {
+    border-radius: 15px;
+    /* background: #1766FF; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 8px 33px 0px 37px;
+}
+
+#btn {
+    border-radius: 14px !important;
+    background-color: #FFD700 !important;
+    padding: 11px 30px 10.4px 30px !important;
+    font-family: Saira;
+    font-weight: 700;
+    color: #434343;
+}
+
+#btn2 {
+    border-radius: 14px !important;
+    padding: 11px 30px 10.4px 30px !important;
+    font-family: Saira;
+    font-weight: 700;
+    color: #434343;
+    background: #1766FF;
+    box-shadow: 1px 6px 3px 0px rgba(0, 0, 0, 0.21);
+}
+
+.pricingBg {
+    background: url(/images/loadingComponentBg.png) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+}
+

@@ -10,90 +10,196 @@
     position: sticky;
     top: 0px;
 } */
+#sliderBg {
+  background: url(/images/sliderBg.png) no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+}
+
 .slider-row {
   display: flex;
   flex-wrap: nowrap;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  
-  .slider-item {
-      text-align: center;
-      overflow-y: scroll;
-      overflow-x: hidden;
-      height: 33rem !important;
-
-    }
-  .slider-item::-webkit-scrollbar{
-    scroll-snap-type: none;
-  }
-    
-    .slider-item img {
-     /* z-index: 1000; */
-      /* opacity: 0.8; */
-      height: 100% !important;
-      /* width: 100% !important; */
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .slider-item.center{
-    height: 105vh !important;
-    transform: scale(1.4);
-    /* width: 300px; */
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-  /* .slider-item.center:hover{
-    overflow-y: scroll;
-    transform: scale(1.5);
-  } */
-
-  .slider-item.center::-webkit-scrollbar{
-    scroll-snap-type: none;
-  }
-  
-
-
-  .slider-item.center img {
-    height: 100% !important;
-
-    /* transform: scale(1.3); */
-    /* opacity: 2; */
-    /* width: 100% !important; */
-  }
-  
-  .slider-controls {
-    position: relative;
-  }
-  
-  
-  
-  .slider-row {
-    position: relative; /* This will make sure that the absolutely positioned children are positioned according to this element */
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-.slider-control.left, .slider-control.right {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    font-size: 3.4rem !important;
-    color: white !important;
-    background-color: transparent!important;
-    padding: 0.5rem !important;
-    border-radius: 50% !important;
-    z-index: 2!important; /* This will make sure that the buttons are above the other elements */
+.slider-item.d-none.d-md-block img {
+  height: 250% !important;
+}
+
+.slider-item {
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 33rem !important;
+
+}
+
+.slider-item::-webkit-scrollbar {
+  scroll-snap-type: none;
+}
+
+.slider-item img {
+  /* z-index: 1000; */
+  /* opacity: 0.8; */
+  height: 100% !important;
+  /* width: 100% !important; */
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-item.center {
+  height: 105vh !important;
+  transform: scale(1.4);
+  transition: 1000ms;
+  /* width: 300px; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.slider-item.center:hover {
+  overflow-y: scroll;
+  transform: scale(1.435);
+}
+
+.slider-item.center::-webkit-scrollbar {
+  scroll-snap-type: none;
+}
+
+
+
+.slider-item.center img {
+  height: 100% !important;
+
+  /* transform: scale(1.3);
+    opacity: 2;
+    width: 100% !important; */
+}
+
+.slider-controls {
+  position: relative;
+}
+
+
+
+.slider-row {
+  position: relative;
+  /* This will make sure that the absolutely positioned children are positioned according to this element */
+}
+
+.slider-control.left,
+.slider-control.right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 3.4rem !important;
+  color: white !important;
+  background-color: transparent !important;
+  padding: 0.5rem !important;
+  border-radius: 50% !important;
+  z-index: 2 !important;
+  /* This will make sure that the buttons are above the other elements */
 }
 
 .slider-control.left {
-    left: -24%;
+  left: -24%;
 }
 
 .slider-control.right {
-    right: -22.3%;
+  right: -22.3%;
 }
 
+/* Define the default styles for your heading */
+.portfolio {
+  color: #FFF;
+  text-align: center;
+  font-family: Saira;
+  font-size: 15.875rem;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+}
 
-  
-  
-  
+/* Add your own media queries and adjust the font size as needed */
+@media (max-width: 1350px) {
+  .portfolio {
+    font-size: 13.875rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .portfolio {
+    font-size: 11.875rem;
+  }
+}
+
+@media (max-width: 1054px) {
+  .portfolio {
+    font-size: 10.875rem;
+  }
+}
+
+@media (max-width: 971px) {
+  .portfolio {
+    font-size: 9.875rem;
+  }
+}
+
+@media (max-width: 899px) {
+  .portfolio {
+    font-size: 8.875rem;
+  }
+}
+
+@media (max-width: 799px) {
+  .portfolio {
+    font-size: 7.875rem;
+  }
+}
+
+@media (max-width: 710px) {
+  .portfolio {
+    font-size: 6.875rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .portfolio {
+    font-size: 5.875rem;
+  }
+}
+
+@media (max-width: 534px) {
+  .portfolio {
+    font-size: 4.875rem;
+  }
+}
+
+@media (max-width: 446px) {
+  .portfolio {
+    font-size: 3.875rem;
+  }
+}
+
+@media (max-width: 355px) {
+  .portfolio {
+    font-size: 3.575rem;
+  }
+}
+
+@media (max-width: 329px) {
+  .portfolio {
+    font-size: 3.275rem;
+  }
+}
+
+@media (max-width: 303px) {
+  .portfolio {
+    font-size: 3.075rem;
+  }
+}
+
+@media (max-width: 287px) {
+  .portfolio {
+    font-size: 2.575rem;
+  }
+}

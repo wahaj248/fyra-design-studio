@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira:ital,wght@0,100;0,700;1,700&display=swap');
 
-#navbg{
+#navbg {
     background-color: #191970 !important;
 }
-#navul{
+
+#navul {
     font-family: Saira !important;
     font-weight: 600 !important;
     font-size: 13px !important;
     line-height: 20px !important;
 }
 
-.navli{
+.navli {
     font-family: Saira !important;
     font-weight: 600 !important;
     font-size: 13px !important;
@@ -18,20 +19,108 @@
     color: white !important;
 }
 
-#navlogo{
+.navli:hover {
+    display: block !important;
+}
+
+/* Style the dropdown menu */
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000;
+    /* Set the background color for the dropdown */
+    padding: 10px;
+    z-index: 1;
+}
+
+#navlogo {
     display: none;
 }
 
+#navbtn1 {
+    font-family: Saira !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    line-height: 17px !important;
+    letter-spacing: 0em !important;
+    text-align: center !important;
+    background-color: aliceblue;
+    color: #434343 !important;
+    padding: 11px, 20px, 10.14px, 20px !important;
+    border-radius: 14px !important;
+    display: flex !important;
+    min-width: 120px !important;
+    padding: 11px 20px 10.14px 20px !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    outline: none !important;
+    border: none !important;
+    transition: 300ms;
+}
+
+#navbtn1:hover {
+    color: #FFFFFF !important;
+    background-color: #245BCF;
+}
+
+#navbtn2 {
+    text-align: center !important;
+    font-family: Saira !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 17.14px !important;
+    display: flex !important;
+    min-width: 120px !important;
+    padding: 11px 20px 10.14px 20px;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 14px !important;
+    background: #245BCF !important;
+    color: #FFFFFF !important;
+    outline: none !important;
+    border: none !important;
+    transition: 300ms;
+}
+
+#navbtn2:hover {
+    color: #000000 !important;
+    background-color: aliceblue !important;
+}
+
+@media screen and (max-width: 295px) {
+    #navbtn1 {
+        font-size: 9px !important;
+        min-width: 90px !important;
+    }
+
+    #navbtn2 {
+        font-size: 9px !important;
+        min-width: 90px !important;
+
+    }
+
+    #navbg {
+        overflow: hidden !important;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    #navlogo{
+    #navlogo {
         display: block;
     }
 }
+
 @media screen and (max-width: 324px) {
-    #navlogo{
+    #navlogo {
         width: 60% !important;
     }
-    #navlink{
+
+    #navlink {
         width: 75% !important;
         margin: 0px !important;
         padding: 0px !important;

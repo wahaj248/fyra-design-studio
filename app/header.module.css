@@ -2,7 +2,9 @@
 #icon{
     color: #191970 !important;
 }
-
+#bg{
+    background-color: #ffffff !important;
+}
 #ul{
     color: #191970 !important;
     font-family: Saira !important;

@@ -1,0 +1,17 @@
+.custom-btn {
+    display: flex;
+    min-width: 120px;
+    padding: 12px 35.493px 11.14px 35.807px;
+    flex-direction: column;
+    border-radius: 14px;
+    background: #FFCD24;
+    box-shadow: 1px 6px 3px 0px rgba(0, 0, 0, 0.21);
+    color: #434343;
+    text-align: center;
+    font-family: Saira;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.14px;
+    /* 142.833% */
+}

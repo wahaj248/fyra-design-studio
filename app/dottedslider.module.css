@@ -3,34 +3,33 @@
 #dottedsliderbg {
   background-color: rgb(0, 10, 61);
 }
+
 #dottedsliderh4 {
-    color: #FFCD24;
-    font-family: Saira;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 46px; /* 95.833% */
+  color: #FFCD24;
+  font-family: Saira;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
 }
 
-#dottedslidertext{
-    color: #FFF;
-font-family: Saira;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 26.4px; /* 110% */
+#dottedslidertext {
+  color: #FFF;
+  font-family: Saira;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.4px;
 }
 
 
 #dottedsliderpara {
-    color: #FFF;
-    font-family: Saira;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 142.857% */
-
-  /* letter-spacing: 0em; */
+  color: #FFF;
+  font-family: Saira;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 
@@ -46,6 +45,7 @@ line-height: 26.4px; /* 110% */
   background-color: #ffcd24;
   padding: 11px 20px 10.4px 20px !important;
 }
+
 #dottedsliderbtn1 {
   margin: 0px 0px 0px 10px;
   font-family: Saira;
@@ -60,28 +60,79 @@ line-height: 26.4px; /* 110% */
   background-color: #245bcf;
 }
 
-#dottedh3{
-    color: #FFF;
-font-family: Saira;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 26.4px; /* 110% */
+#dottedh3 {
+  color: #FFF;
+  font-family: Saira;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.4px;
 }
-#dottedpara{
-    color: #FFF;
-font-family: Saira;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 142.857% */
+
+#dottedpara {
+  color: #FFF;
+  font-family: Saira;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#cards {
+  transition: 400ms;
+}
+
+#cards:hover {
+  background-color: #FFCD24 !important;
 }
 
 
-  
-/* @media screen and (max-width: 365px) {
+@media screen and (max-width: 443px) {
   #dottedsliderh4 {
-    font-size: 35px;
-    line-height: 52px;
+    font-size: 40px;
+    line-height: 50px;
   }
-} */
+}
+
+@media screen and (max-width: 374px) {
+  #dottedsliderh4 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 306px) {
+  #dottedsliderh4 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #cards {
+    width: 14rem !important;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  #cards {
+    width: 17rem !important;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  #cards {
+    margin: auto !important;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  #cards {
+    width: 14rem !important;
+
+  }
+
+}

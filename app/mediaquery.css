@@ -18,3 +18,30 @@
     width: 90% !important;
   }
 }
+
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    display: none;
+    font-size: 55px !important;
+    color: #ddd !important;
+    cursor: pointer !important;
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+    background-color: #000 !important;
+}
+
+.owl-dots{
+  color: white !important;
+  background-color: brown !important;
+  display: none;
+
+}
+.owl-dot span{
+  color: yellow !important;
+  background-color: black !important;
+  display: none;
+  cursor: pointer !important;
+}

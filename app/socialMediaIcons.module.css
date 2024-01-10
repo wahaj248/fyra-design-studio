@@ -1,0 +1,50 @@
+#socialMediaIconsBg {
+    background: url(/images/loadingComponentBg.png) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    margin-top: 15px;
+    border-radius: 70px;
+    border: 1px solid #FFF;
+    padding: 15px 121px 15px 26px;
+    background: rgba(255, 255, 255, 0.10);
+    background-image: url();
+}
+
+.mainhead {
+    color: #FFF;
+    font-family: Saira;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    /* 110% */
+}
+
+.text {
+    color: #FFF;
+    font-family: Saira;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.headingTwo {
+    color: #FFF;
+    font-family: Saira;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.paragraph {
+    color: #FFF;
+    font-family: Saira;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}

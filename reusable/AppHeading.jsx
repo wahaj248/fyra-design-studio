@@ -1,10 +1,32 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { motion } from "framer-motion";
 
-function AppHeading({ text, para}) {
+function AppHeading({ text, para }) {
+  const fadeInVariant = {
+    hidden: { opacity: 0, scale: 0.7, },
+    visible: { opacity: 1, scale: 1, transition: { duration: 2.5 } },
+    hover: {
+      scale: 0.9,
+      transition: {
+        duration: 0.7,
+      },
+    },
+    initial: {
+      scale: 1,
+      transition: {
+        duration: 0.8,
+      },
+    },
+  };
+  
   return (
     <div className="text-center">
-      <h2
+      <motion.h2
+        variants={fadeInVariant}
+        initial="hidden"
+        whileHover="hover"
+        whileInView="visible"
         style={{
           color: "#FFCD24",
           fontFamily: "Saira",
@@ -14,9 +36,13 @@ function AppHeading({ text, para}) {
         }}
       >
         {text}
-      </h2>
+      </motion.h2>
       <Container className="w-50" id="appHeadingContainer">
-        <p
+        <motion.p
+          variants={fadeInVariant}
+          initial="hidden"
+          whileHover="hover"
+          whileInView="visible"
           style={{
             color: "#FFFFFF",
             fontFamily: "Saira",
@@ -26,7 +52,7 @@ function AppHeading({ text, para}) {
           }}
         >
           {para}
-        </p>
+        </motion.p>
       </Container>
     </div>
   );

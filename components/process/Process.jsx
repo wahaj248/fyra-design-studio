@@ -5,8 +5,74 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import AppHeading from "../../reusable/AppHeading";
+import { motion } from "framer-motion"
 
 function Process() {
+  const divLeft = {
+    hidden: { opacity: 0, x: -250, },
+    visible: { opacity: 1, x: 0, transition: { duration: 1.5 } },
+    hover: {
+      scale: 0.95,
+      transition: {
+        duration: 0.7,
+      },
+    },
+    initial: {
+      scale: 1,
+      transition: {
+        duration: 0.8,
+      },
+    },
+  };
+  const divRight = {
+    hidden: { opacity: 0, x: 250, },
+    visible: { opacity: 1, x: 0, transition: { duration: 1.5 } },
+    hover: {
+      scale: 1,
+      transition: {
+        duration: 0.7,
+      },
+    },
+    initial: {
+      scale: 1,
+      transition: {
+        duration: 0.8,
+      },
+    },
+  };
+  const divTop = {
+    hidden: { opacity: 0, y: -250, },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5 } },
+    hover: {
+      scale: 1,
+      transition: {
+        duration: 0.7,
+      },
+    },
+    initial: {
+      scale: 1,
+      transition: {
+        duration: 0.8,
+      },
+    },
+  };
+  const divBottom = {
+    hidden: { opacity: 0, y: 250, },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.5 } },
+    hover: {
+      scale: 1,
+      transition: {
+        duration: 0.7,
+      },
+    },
+    initial: {
+      scale: 1,
+      transition: {
+        duration: 0.8,
+      },
+    },
+  };
+
   return (
     <Container id={styles.processbg} fluid className="overflow-hidden py-5 ">
       <AppHeading
@@ -15,7 +81,11 @@ function Process() {
 We create fitting digital solutions for your brand and ensure optimal results."
       />
       <Row className="flex justify-center gap-3 my-3">
-        <Card
+        <motion.Card
+          variants={divLeft}
+          initial="hidden"
+          whileInView="visible"
+          whileHover="hover"
           className="col-lg-3 col-md-6 col-12 text-center text-md-start"
           style={{
             width: "15rem",
@@ -34,16 +104,24 @@ We create fitting digital solutions for your brand and ensure optimal results."
               01
             </Card.Link>
           </Card.Body>
-        </Card>
-        <Card
+        </motion.Card>
+        <motion.Card
+          variants={divTop}
+          initial="hidden"
+          whileInView="visible"
+          whileHover="hover"
           className="col-lg-3 col-md-6 col-12 text-center text-md-start"
           id={styles.cardWithBackground}
         >
           <Card.Body style={{ height: "18rem" }}>
             {/* <img src="/images/processimg1.png" alt="" /> */}
           </Card.Body>
-        </Card>
-        <Card
+        </motion.Card>
+        <motion.Card
+          variants={divTop}
+          initial="hidden"
+          whileInView="visible"
+          whileHover="hover"
           className="col-lg-3 col-md-6 col-12 text-center text-md-start"
           style={{
             width: "15rem",
@@ -61,22 +139,34 @@ We create fitting digital solutions for your brand and ensure optimal results."
               02
             </Card.Link>
           </Card.Body>
-        </Card>
-        <Card
+        </motion.Card>
+        <motion.Card
+          variants={divRight}
+          initial="hidden"
+          whileInView="visible"
+          whileHover="hover"
           className="col-lg-3 col-md-6 col-12 text-center text-md-start"
           id={styles.cardWithBackground2}
         >
           <Card.Body style={{ height: "18rem" }}></Card.Body>
-        </Card>
+        </motion.Card>
       </Row>
       <Row className="flex justify-center gap-3 my-3 pb-5">
-        <Card
+        <motion.Card
+          variants={divLeft}
+          initial="hidden"
+          whileInView="visible"
+          whileHover="hover"
           className="col-lg-3 col-md-6 col-12 text-center text-md-start"
           id={styles.cardWithBackground3}
         >
           <Card.Body style={{ height: "18rem" }}></Card.Body>
-        </Card>
-        <Card
+        </motion.Card>
+        <motion.Card
+          variants={divBottom}
+          initial="hidden"
+          whileInView="visible"
+          whileHover="hover"
           className="col-lg-3 col-md-6 col-12 text-center text-md-start"
           style={{
             width: "15rem",
@@ -95,16 +185,24 @@ We create fitting digital solutions for your brand and ensure optimal results."
               03
             </Card.Link>
           </Card.Body>
-        </Card>
-        <Card
+        </motion.Card>
+        <motion.Card
+          variants={divBottom}
+          initial="hidden"
+          whileInView="visible"
+          whileHover="hover"
           className="col-lg-3 col-md-6 col-12 text-center text-md-start"
           id={styles.cardWithBackground4}
         >
           <Card.Body style={{ height: "18rem" }}>
             {/* <img src="/images/processimg1.png" alt="" /> */}
           </Card.Body>
-        </Card>
-        <Card
+        </motion.Card>
+        <motion.Card
+          variants={divRight}
+          initial="hidden"
+          whileInView="visible"
+          whileHover="hover"
           className="col-lg-3 col-md-6 col-12 text-center text-md-start"
           style={{
             width: "15rem",
@@ -123,7 +221,7 @@ We create fitting digital solutions for your brand and ensure optimal results."
               04
             </Card.Link>
           </Card.Body>
-        </Card>
+        </motion.Card>
       </Row>
     </Container>
   );
